@@ -22,9 +22,11 @@ setup(
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Text Processing :: Linguistic",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.12",
         "Programming Language :: Python :: 3.13",
     ],
-    python_requires=">=3.13",
+    python_requires=">=3.12",  # Changed from >=3.13
     install_requires=["luqum>=1.0.0"],
     keywords="lucene query parser search ast",
     project_urls={
